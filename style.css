@@ -83,3 +83,9 @@ section {
   margin-left: auto;
   max-width: 600px;
 }
+.info {
+  padding-top: 1px;
+  padding-left: 1px;
+  padding-right: 0;
+  padding-bottom: 0;
+}
