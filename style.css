@@ -159,3 +159,6 @@ address {
   padding-bottom: 1px;
   padding-left: 1px;
 }
+* {
+  scroll-behavior: smooth;
+}
