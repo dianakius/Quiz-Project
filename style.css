@@ -39,6 +39,8 @@ nav > ul {
 h1,
 h2 {
   font-family: Verdana, Tahoma, sans-serif;
+  margin-top: 0;
+  padding-top: 60px;
 }
 h2 {
   border-bottom: 4px solid #dfdfe2;
