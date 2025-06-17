@@ -89,3 +89,14 @@ section {
   padding-right: 0;
   padding-bottom: 0;
 }
+.formrow {
+  margin-top: 1px;
+
+  padding-top: 0;
+  padding-right: 1px;
+  padding-left: 1px;
+  padding-bottom: 0;
+}
+input {
+  font-size: 13px;
+}
