@@ -159,6 +159,8 @@ address {
   padding-bottom: 1px;
   padding-left: 1px;
 }
-* {
-  scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
 }
