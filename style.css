@@ -45,6 +45,11 @@ h2 {
 h2 {
   border-bottom: 4px solid #dfdfe2;
 }
+h3 {
+  margin-top: 5px;
+  padding-left: 15px;
+  font-size: 1.375rem;
+}
 .sr-only {
   position: absolute;
   width: 1px;
