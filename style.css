@@ -15,37 +15,53 @@ header {
   height: 50px;
   background-color: #1b1b32;
   display: flex;
+  justify-content:space-between;
+  align-items:center;
+  top:0;
+
 }
 h1 {
-  color:#f1be32;
-  font-size:min(5vw, 1.2em);
+  color: #f1be32;
+  font-size: min(5vw, 1.2em);
 }
-nav >ul {
-  display:flex;
+nav > ul {
+  display: flex;
   justify-content: space-evenly;
 }
-h1,h2 {
-    font-family: Verdana, Tahoma, sans-serif;
+h1,
+h2 {
+  font-family: Verdana, Tahoma, sans-serif;
 }
-h2{
-  border-bottom:4px solid #dfdfe2;
+h2 {
+  border-bottom: 4px solid #dfdfe2;
 }
 .sr-only {
   position: absolute;
-width: 1px;
-height: 1px;
-overflow: hidden;
-clip: rect(0, 0, 0, 0);
-clip-path: inset(50%);
-white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
- h3::before {
-  content:"Question #";
+h3::before {
+  content: "Question #";
 }
 
 nav > ul > li {
   color: #dfdfe2;
-margin: 0 0.2rem;
-padding: 0.2rem;
-display: block;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+nav > ul > li > a {
+  color: #dfdfe2;
+}
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+li > a {
+  text-decoration: none;
 }
