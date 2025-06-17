@@ -148,3 +148,6 @@ footer {
   justify-content: center;
   text-align: center;
 }
+footer, footer a{
+color: #dfdfe2
+}
